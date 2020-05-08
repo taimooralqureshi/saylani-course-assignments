@@ -1,4 +1,4 @@
-# saylani Web and Mobile development course assignments
+# Saylani Web and Mobile development course assignments
 
 All projects are live on : [firebase](https://taimoorqureshi-wm11606.web.app/)
 
