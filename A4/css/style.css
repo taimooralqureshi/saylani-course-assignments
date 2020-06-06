@@ -1,0 +1,250 @@
+body {
+      margin:0;
+}
+
+.my-primary {
+        background-color: #1b1464 !important;
+}
+.my-secondary {
+        background-color: #bf0603 !important;
+}
+.my-txt-primary {
+        color: #1b1464 !important;
+}
+.my-txt-secondary {
+        color: #bf0603 !important;
+}
+.my-btn-primary {
+        background-color: #1b1464 !important;
+        border-color: #1b1464 !important;
+        color: white;
+        opacity: 0.9;
+}
+.my-btn-secondary {
+        background-color:#bf0603 !important;
+        border-color: #bf0603 !important;
+        color: white;
+        opacity: 0.8;
+}
+.my-btn-primary:hover, .my-btn-secondary:hover {
+        opacity: 1;
+        color : white;
+}
+
+
+.branding{
+        /* Sizing */    
+    /* background-image: linear-gradient(#bf0603aa,#1b146477), url('../images/branding.jpg'); */
+    background-image: linear-gradient(#1b1464af,#bf0603aa), url('../images/branding.jpg');
+    /* background-image: linear-gradient(#bf060399,#bf060399), url('../images/branding.jpg'); */
+    /* background-image: linear-gradient(#1b146477,#1b146477), url('../images/branding.jpg'); */
+    
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    width: 100%;
+    height: 600px;
+}
+a.my-active {
+    
+        background-color: #fff;
+        color: #bf0603 !important;    
+}
+.my-link {
+        color: white !important;
+        display: inline-block;
+        padding: 6px 20px 10px !important;
+        margin: 0 6px;
+        
+}
+#branding{
+       display: table;
+}
+#branding-text {
+        color:white !important;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        padding: 18% 10%  !important ; 
+}
+#branding-text button {
+        margin-right: 10px !important;
+}
+.slogan {
+        font-size: 2.6em;
+}
+.feature {
+        background: #bf0603;
+        /* background: #1b1464; */
+    /* background: -webkit-linear-gradient(to left,#bf0603,#1b1464);  */
+    /* background: linear-gradient(to left,#bf0603, #1b1464);  */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    /* font-family: 'Merriweather', serif; */
+    font-weight: 600;
+    font-size: 4em;
+    border-bottom: 4px solid #1b1464;
+    display: block;
+    justify-content: center;
+    padding-top: 80px;
+    margin-bottom: 80PX;
+}
+.feature-item {
+        color:  #bf0603;
+        background-color: white;
+        margin-bottom: 2rem !important;
+}
+.feature-icon {
+        display: inline-block;
+        color:#bf0603;
+        padding: 8px;
+}
+.feature-icon i {
+       font-size: 3rem;        
+}
+.feature-section {
+        margin-bottom: 0rem;
+}
+.client-section span, .pricing-section span, .demo-video span{
+        background: #bf0603;
+        /* background: #1b1464; */
+    /* background: -webkit-linear-gradient(to left,#bf0603,#1b1464);  */
+    /* background: linear-gradient(to left,#bf0603, #1b1464);  */
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    /* font-family: 'Merriweather', serif; */
+    font-weight: 600;
+    font-size: 4em;
+    border-bottom: 4px solid #1b1464;
+    display: block;
+    justify-content: center;
+    padding-top: 80px !important;
+    margin-bottom: 80px;
+}
+.client-section .container {
+        margin-bottom: 100px;
+}
+.client-item {
+        margin: 40px auto;
+}
+.copy-right{
+        background-color:#bf0603;
+        color: white;
+        font-size: 1.6rem;
+        padding: 12px
+}
+
+.pricing-section {
+        margin: 0 auto 80px;
+}
+
+.card-section {
+        display:flexbox;
+        align-items: center;
+}
+.demo-section {
+background-color:#e9ecef !important;
+padding-bottom: 10%;
+}
+.disc {
+        margin-top: 4%;
+}
+
+
+
+.edwave-heading, .mission-heading {
+        display: block;
+        font-size: 3em;
+        color: #1b1464;
+        font-weight: bolder;
+        margin-top: 1em;
+
+}
+.mission-heading {
+        color: #fff;
+}
+.edwave-text {
+        margin-left: 4em ;
+        margin-right: 4em ;
+        margin-bottom: 4em;
+        color:#1b1464;
+        display: inline-block;
+        font-weight: bolder;
+}
+.mission-text {
+        margin-left: 4em ;
+        margin-right: 4em ;
+        margin-bottom: 4em;
+        color:#fff;
+        display: inline-block;
+        font-weight: bolder;
+}
+.about-edwave>div , .mission>div{
+       padding: 4em;
+            
+}
+.about-edwave>div>div{
+        border: 4px dashed #bf0603 !important;
+        background-color: #fff;
+}
+.mission>div>div{
+        border: 4px dashed #1b1464 !important;
+}
+.contact-background {
+    background: #e9ecef;
+    background: -webkit-linear-gradient(to top,#bf0603,#1b1464); 
+    background: linear-gradient(to top,#bf0603, #1b1464); 
+}
+.contact-heading {
+        display: block;
+        font-size: 3em;
+        color: #fff;
+        font-weight: bolder;
+       padding: 2em 0 0.5em;      
+}
+.contact-text {
+        display: block;
+        color: #fff;
+        padding: inherit 100px ; 
+        margin: 0 auto;
+        font-weight: bold;
+        padding:0 10em 6em;
+}
+.contact-form {
+        width: 60%;
+        background-color: #fff;
+        padding: 4em 4em;
+        margin: 10em auto 0;
+}
+.contact-section {
+        padding: 4em 6em 6em;
+        font-size: 1.4em;
+}
+
+.contact-left .contact-right {
+        padding-top: 2em;
+}
+.contact-right span {
+        display: block;
+        
+
+}
+@media only screen and (max-width: 500px) {
+        .contact-right .contact-left{
+                width: 100% !important;
+                padding: 0em;
+        }
+        .contact-form{
+                padding: 1em 1em;
+                width: 90%;
+       
+        }
+        .contact-text {
+                padding:0 2em 6em;
+        }
+      }

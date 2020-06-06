@@ -45,14 +45,17 @@
    
 }
 .project-container{
-    /* background-color: #bbb; */
     width: 250px;
     margin: 60px auto 0;
     text-align: center;
-    /* padding: 10px; */
     transition: 1s ease;
     color: #fff;
     opacity: 0.8;
+    background-color: red;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 20px 20px 24px #999;
+
 }
 .project-name {
     height: 150px;
@@ -63,10 +66,11 @@
     background-color: rgb(19, 16, 16);
     align-items:center;
     justify-content: center;
-    /* padding: 40px auto; */
     padding: 10px;
 
+
 }
+
 .assignment-name{
     background-color: rgb(117, 100, 0);
     padding: 10px;
